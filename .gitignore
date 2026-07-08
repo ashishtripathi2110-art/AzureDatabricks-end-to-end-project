@@ -37,20 +37,6 @@ temp/
 .DS_Store
 Thumbs.db
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Azure credentials - NEVER push these
 *.pfx
 *.pem
