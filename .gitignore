@@ -2,43 +2,11 @@
 .databricks/
 *.lock.hcl
 
+
+
 # Environment files
 .env
 .env.local
 
 # IDE settings
 .vscode/
-
-# Python cache files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Log files
-*.log
-logs/
-
-# Large data files - never push to GitHub
-*.csv
-*.parquet
-*.json
-*.xml
-
-# Temporary files
-*.tmp
-*.temp
-temp/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Azure credentials - NEVER push these
-*.pfx
-*.pem
-service_principal.json
-credentials.json
